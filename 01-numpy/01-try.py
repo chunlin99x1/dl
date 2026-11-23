@@ -37,12 +37,32 @@ print(a)
 a = np.full_like(arr,5)
 print(a)
 
-## arange()
+## arange()  返回给定范围内的等差数列  只能是一维数组
+a = np.arange(2,12,2)
+print(a)
+
+# linspace() # 数组元素是 浮点数
+a = np.linspace(0,10,10)
+print(a)
+
+# logspace()  数组 浮点
+a = np.logspace(0,10,10)
+print(a)
+
+## 创建随机数组
+arr1 = np.random.rand(3,3) # 0 -1 之间的浮点数 均匀分布
+print(arr1)
+
+arr2 = np.random.randint(1,10, size=(3,3))
+print(arr2)
 
 
+arr3 = np.random.uniform(1,10, size=(3,3))# 用从低位(包含)到高位(不包含)上均匀分布的随机浮点数填充。
+print(arr3)
 
 
-
+arr4 = np.random.randn(3,3) # 标准正态分布  均值为0，标准差为1
+print(arr4)
 
 
 
