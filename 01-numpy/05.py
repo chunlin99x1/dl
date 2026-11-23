@@ -14,3 +14,6 @@ print(np.dot(arr1, arr2))
 print(arr1 @ arr2)
 print(arr1.dot(arr2))
 
+
+
+
