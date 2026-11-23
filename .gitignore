@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE
+.idea/
+
+# 训练产物
+runs/
+
+# macOS
+.DS_Store
